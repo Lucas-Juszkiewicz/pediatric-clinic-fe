@@ -1,0 +1,17 @@
+.header {
+    background-image: linear-gradient(to right, #AFD9F7, #eaf1fa);
+    height: 50px;
+    /* padding-bottom: 500; */
+}
+
+.menu-button {
+    color: var(--primary-color);
+    font: inherit;   /* Takes font from nearest parent */
+    background-color: inherit; /* Optional: Inherit background too */
+  }
+
+  .logo {
+    height: 50px;
+    width: 120px;
+    object-fit: contain;
+  }

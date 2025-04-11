@@ -1,11 +1,16 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import { FrontPage, MainPage } from '@/pages';
 
 function App() {
 
   return (
-    <>
-      <h1>Pediatric clinic</h1>
-    </>
+    <div className='app'>
+      <Routes>
+      <Route path='/' element={<FrontPage />} />
+      <Route path='/mainPage' element={<MainPage />} />
+      </Routes>
+    </div>
   )
 }
 
